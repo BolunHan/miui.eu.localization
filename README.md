@@ -71,6 +71,14 @@ REPLACE="
 rm -rf /data/misc_de/0/apexdata/com.android.permission/runtime-permissions.xml
 ```
 
+## 编辑 \common\system.prop
+
+加入
+```
+ro.se.type=HCE,UICC,eSE
+```
+
+使得设置中 "安全模块位置" 可以选择 "内置安全模块"
 ---
 
 # 打包
