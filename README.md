@@ -44,7 +44,7 @@ Mipay 模块需要提取的应用有 "Mipay", "NextPay", "TSMClient" 和 "UPTsmS
 
 ## Resolve lib softlink
 
-将 "Mipay", "NextPay", "TSMClient" 和 "UPTsmService" 应用（文件夹）从 "$CRB_ROOT\Projects\$YourProjectName\ROM\system\system\app" 复制出来。
+将 "Mipay", "NextPay", "TSMClient" 和 "UPTsmService" 应用（文件夹）从 "$CRB_ROOT\Projects\YourProjectName\ROM\system\system\app" 复制出来。
 
 在每个应用目录中，删除 ota 目录（如有）
 
