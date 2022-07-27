@@ -1,7 +1,6 @@
-id=localization
-name=MIUI.Localization
+id=miui.mipay
+name=Mipay Magisk Module
 version=v1
 versionCode=1
 author=BolunHan
-description=localization magisk module
-template=1
+description=mipay magisk module
