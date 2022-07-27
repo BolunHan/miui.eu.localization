@@ -1,33 +1,4 @@
-##########################################################################################
-#
-# Magisk
-# by topjohnwu
-# 
-# This is a template zip for developers
-#
-##########################################################################################
-##########################################################################################
-# 
-# Instructions:
-# 
-# 1. Place your files into system folder (delete the placeholder file)
-# 2. Fill in your module's info into module.prop
-# 3. Configure the settings in this file (common/config.sh)
-# 4. For advanced features, add shell commands into the script files under common:
-#    post-fs-data.sh, service.sh
-# 5. For changing props, add your additional/modified props into common/system.prop
-# 
-##########################################################################################
-
-##########################################################################################
-# Defines
-##########################################################################################
-
-# NOTE: This part has to be adjusted to fit your own needs
-
-# This will be the folder name under /magisk
-# This should also be the same as the id in your module.prop to prevent confusion
-MODID=mipay
+MODID=miui.voice.assist
 
 # Set to true if you need to enable Magic Mount
 # Most mods would like it to be enabled
@@ -49,12 +20,9 @@ LATESTARTSERVICE=false
 # Set what you want to show when installing your mod
 
 print_modname() {
-  ui_print "*******************************"
-  ui_print "      Mipay Module v0.1.0      "
-  ui_print "*******************************"
-  ui_print "                               "
-  ui_print "钱包如果能调出刷卡界面但是刷卡无反应"
-  ui_print "在系统设置中将默认钱包改为HCE再改回小米钱包。"
+  ui_print "*************************************"
+  ui_print "      VoiceAssist Module v0.1.0      "
+  ui_print "*************************************"
 }
 
 ##########################################################################################
@@ -68,7 +36,6 @@ print_modname() {
 # You don't need to remove the example below, these values will be overwritten by your own list
 # This is an example
 REPLACE="
-/system/app/NextPay
 "
 
 ##########################################################################################
